@@ -1,0 +1,62 @@
+En esta carpeta vamos a poner todo lo referente a la documentación del proyecto.
+
+Checklist para completar el proyecto de expo 
+
+expoFormacion
+
+base de datos (AZUL)
+=========
+
+[] Script de creación de tablas y datos ejemplo
+[] un script en typescript como para poblar las tablas con muchos datos
+
+[] sql para charlas y cantidad de inscriptos
+[] sql para charlas y nombre de inscriptos
+[] sql como para saber como se entero del evento
+[] sql como para saber nombre de la charla y colaboradores
+[] sql como para saber charlas ordenadas por horarios y alfabéticamente
+[] sql para cantidad de ingresos y total de inscriptos
+[] sql todos los inscriptos ordenados por apellido (como para pdf)
+[] sql de insert con el objeto de Inscripto + carlas en las que quiere asistir + como te enteraste
+
+express
+=====
+
+[] Mapear cada uno de los selects a un endpoint
+[] Hacer el endpoint o los endpoints para registración
+[] Hacer el endpoints para mesa de entrada
+      consultar por dni
+      update para ese dni con el horario de ingreso
+
+
+
+
+Pantalla de inscripción
+================
+
+[] Texto informativo en formato mobile
+[] Texto informativo en formato desktop
+[] Pantalla de inscripción
+[] Validar por JavaScript 
+[] FetchApi para /inscripción
+
+Pantalla deMesa de entradas
+====================
+
+[] Pantalla con input DNI: Validación DNI, Actualizar un campo para la hora 
+[] Mostrar nombre apellido, otro botón que diga OK. 
+
+
+Infraesctructura
+===========
+
+[] Dominio  www.expoformacion2025.edu.ar
+[] Un servidor para base de datos
+[] Un servidor para node
+[] Un certificado para https
+
+
+
+
+
+
